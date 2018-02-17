@@ -1,1 +1,1 @@
-fbalpha https://github.com/libretro/fbalpha master
+fbalpha https://github.com/garbear/fbalpha analog
