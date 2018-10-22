@@ -23,6 +23,7 @@ Supported files: .iso, .zip, .7z</description>
 		<disclaimer>The authors of FB Alpha don&#39;t guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders.</disclaimer>
 		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.fbalpha</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
