@@ -14,7 +14,7 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Arcade (FB Alpha) v0.2.97.43</summary>
+		<summary lang="en_GB">Arcade (FB Alpha) v0.2.97.44</summary>
 		<description lang="en_GB">Final Burn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16. FB Alpha is based on the original FinalBurn.
 
 Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)
