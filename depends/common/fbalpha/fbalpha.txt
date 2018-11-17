@@ -1,1 +1,1 @@
-fbalpha https://github.com/libretro/fbalpha/archive/c28d47b09f353091076364900baed2dc298b816a.zip
+fbalpha https://github.com/libretro/fbalpha/archive/cdc6d71bf07214585c2b4d0d295968861cd1f7d6.zip
