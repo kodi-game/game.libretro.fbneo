@@ -9,5 +9,8 @@
 		<setting label="30006" type="select" id="fba-lr-controls-p1" values="normal|remap to R1/R2" default="normal"/>
 		<setting label="30007" type="select" id="fba-lr-controls-p2" values="normal|remap to R1/R2" default="normal"/>
 		<setting label="30008" type="select" id="fba-sh2-mode" values="accurate|fast" default="accurate"/>
+		<setting label="30009" type="select" id="fba-neogeo-mode" values="MVS|AES|UNIBIOS|DIPSWITCH" default="MVS"/>
+		<setting label="30010" type="select" id="fba-diagnostic-input" values="None|Hold Start|Start + A + B|Hold Start + A + B|Start + L + R|Hold Start + L + R|Hold Select|Select + A + B|Hold Select + A + B|Select + L + R|Hold Select + L + R" default="None"/>
+		<setting label="30011" type="select" id="fba-vertical-mode" values="disabled|enabled" default="disabled"/>
 	</category>
 </settings>
