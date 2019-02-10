@@ -61,5 +61,5 @@ msgid "Diagnostic Input"
 msgstr ""
 
 msgctxt "#30011"
-msgid "fba-vertical-mode"
+msgid "Vertical mode"
 msgstr ""
