@@ -52,3 +52,14 @@ msgctxt "#30008"
 msgid "Psikyo/Kaneko SH2 mode (need 'hard' restart)"
 msgstr ""
 
+msgctxt "#30009"
+msgid "Force Neo Geo mode (if available)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Diagnostic Input"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Vertical mode"
+msgstr ""
