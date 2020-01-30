@@ -1,6 +1,6 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: game.libretro.fbalpha
-Source: https://github.com/kodi-game/game.libretro.fbalpha
+Upstream-Name: game.libretro.fbneo
+Source: https://github.com/kodi-game/game.libretro.fbneo
 
 Files: *
 Copyright: 2005-2019 Team Kodi

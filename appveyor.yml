@@ -4,10 +4,10 @@ image: Visual Studio 2017
 
 shallow_clone: true
 
-clone_folder: c:\projects\game.libretro.fbalpha
+clone_folder: c:\projects\game.libretro.fbneo
 
 environment:
-  app_id: game.libretro.fbalpha
+  app_id: game.libretro.fbneo
 
   matrix:
     - GENERATOR: "Visual Studio 15"

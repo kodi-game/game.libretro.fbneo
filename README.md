@@ -1,6 +1,6 @@
-# game.libretro.fbalpha addon for Kodi
+# game.libretro.fbneo addon for Kodi
 
-This is a [Kodi](http://kodi.tv) game addon for Arcade (FB Alpha).
+This is a [Kodi](http://kodi.tv) game addon for Arcade (FinalBurn Neo).
 
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.fbalpha.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.fbalpha)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.fbalpha?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-fbalpha)
+[![Build Status](https://travis-ci.org/kodi-game/game.libretro.fbneo.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.fbneo)
+[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.fbneo?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-fbneo)

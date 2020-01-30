@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(fbalpha)
+project(fbneo)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 
@@ -7,8 +7,8 @@ include(ExternalProject)
 
 string(TOUPPER ${PROJECT_NAME} PROJECT_NAME_UC)
 
-set(LIBRETRO_BINARY_DIR .)
-set(LIBRETRO_SONAME fbalpha_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
+set(LIBRETRO_BINARY_DIR src/burner/libretro)
+set(LIBRETRO_SONAME fbneo_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
@@ -17,14 +17,14 @@ endif()
 
 if(CORE_SYSTEM_NAME STREQUAL windows)
   find_package(MinGW REQUIRED)
-  set(BUILD_COMMAND ${MINGW_MAKE} -j$ENV{NUMBER_OF_PROCESSORS} -C . -f makefile.libretro platform=win  ${LIBRETRO_DEBUG} GIT_VERSION=)
+  set(BUILD_COMMAND ${MINGW_MAKE} -j$ENV{NUMBER_OF_PROCESSORS} -C src/burner/libretro -f Makefile platform=win  ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL linux)
-  set(BUILD_COMMAND $(MAKE) -C . -f makefile.libretro  platform=unix ${LIBRETRO_DEBUG} GIT_VERSION=)
+  set(BUILD_COMMAND $(MAKE) -C src/burner/libretro -f Makefile  platform=unix ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL osx)
-  set(BUILD_COMMAND $(MAKE) -C . -f makefile.libretro  platform=osx ${LIBRETRO_DEBUG} GIT_VERSION=)
+  set(BUILD_COMMAND $(MAKE) -C src/burner/libretro -f Makefile  platform=osx ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedded)
-  set(LIBRETRO_SONAME fbalpha_libretro_ios${CMAKE_SHARED_LIBRARY_SUFFIX})
-  set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE) -C . -f makefile.libretro  platform=ios ${LIBRETRO_DEBUG} GIT_VERSION=)
+  set(LIBRETRO_SONAME fbneo_libretro_ios${CMAKE_SHARED_LIBRARY_SUFFIX})
+  set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE) -C src/burner/libretro -f Makefile  platform=ios ${LIBRETRO_DEBUG} GIT_VERSION=)
 elseif(CORE_SYSTEM_NAME STREQUAL android)
   if(NOT NDKROOT)
     message(FATAL_ERROR "${PROJECT_NAME} needs NDKROOT for Android. Missing Toolchain file?")
@@ -42,7 +42,7 @@ elseif(CORE_SYSTEM_NAME STREQUAL android)
 elseif(CORE_SYSTEM_NAME STREQUAL rbpi)
   message(FATAL_ERROR "${PROJECT_NAME} needs RPi build command in CMakeLists.txt!")
 elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
-  set(BUILD_COMMAND $(MAKE) -C . -f makefile.libretro  platform=unix ${LIBRETRO_DEBUG} GIT_VERSION=)
+  set(BUILD_COMMAND $(MAKE) -C src/burner/libretro -f Makefile  platform=unix ${LIBRETRO_DEBUG} GIT_VERSION=)
 else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
@@ -57,4 +57,4 @@ externalproject_add(${PROJECT_NAME}
 
 # install the generated shared library
 install(FILES ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${LIBRETRO_SONAME}
-        DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/libretro RENAME fbalpha_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/libretro RENAME fbneo_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
