@@ -15,12 +15,8 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Arcade (FinalBurn Neo) v1.0.0.03 </summary>
-		<description lang="en_GB">Final Burn Alpha is an emulator of arcade games, including Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16. FB Alpha is based on the original FinalBurn.
-
-Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)
-
-Supported files: .zip, .7z, .cue, .ccd</description>
-		<disclaimer>The authors of FB Alpha don&#39;t guarantee its fitness for any purpose, implied or otherwise, and do not accept responsibility for any damages whatsoever that might occur when using FB Alpha. All games emulated by FB Alpha, including any images and sounds therein, are copyrighted by their respective copyright holders.</disclaimer>
+		<description lang="en_GB">FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
+		<disclaimer>Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.fbneo</source>
