@@ -14,14 +14,14 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Arcade (FinalBurn Neo) v1.0.0.03 </summary>
-		<description lang="en_GB">FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
-		<disclaimer>Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<license>Non-commercial</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.fbneo</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<disclaimer>Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<summary lang="en_GB">Arcade (FinalBurn Neo) v1.0.0.03 </summary>
+		<description lang="en_GB">FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16.</description>
 	</extension>
 </addon>
