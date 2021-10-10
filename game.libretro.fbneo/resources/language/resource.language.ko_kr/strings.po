@@ -24,3 +24,7 @@ msgstr ""
 msgctxt "Addon Description"
 msgid "FinalBurn Neo is a fork of FinalBurn Alpha, an emulator of arcade games.[CR][CR]FB Neo emulation includes Capcom CPS-1 and CPS-2, SNK Neo-Geo, Toaplan, Cave and Sega System 16."
 msgstr "FinalBurn Neo는 아케이드 게임의 에뮬레이터인 FinalBurn Alpha의 포크입니다.[CR][CR]FB Neo 에뮬레이션에는 Capcom CPS-1 및 CPS-2, SNK Neo-Geo, Toaplan, Cave 및 Sega System 16이 포함됩니다."
+
+msgctxt "Addon Disclaimer"
+msgid "Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)"
+msgstr ""
