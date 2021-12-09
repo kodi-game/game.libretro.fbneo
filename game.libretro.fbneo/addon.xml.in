@@ -28,5 +28,6 @@
 		<description lang="zh_CN">FinalBurn Neo 是 FinalBurn Alpha 的一个分支，它是街机游戏的模拟器。[CR][CR]FB Neo 仿真包括 Capcom CPS-1 和 CPS-2、SNK Neo Geo、Toaplan、Cave 和 Sega System 16。</description>
 		<disclaimer lang="da_DK">Billedekredit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<disclaimer lang="en_GB">Icon credit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ko_KR">아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
 	</extension>
 </addon>
