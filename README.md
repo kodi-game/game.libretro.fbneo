@@ -15,7 +15,7 @@ Non-commercial
 
 ### Icon
 
-![Icon](game.libretro.fbneo/resources/icon.png)
+![Arcade (FinalBurn Neo) icon](game.libretro.fbneo/resources/icon.png)
 
 ### Fanart
 
