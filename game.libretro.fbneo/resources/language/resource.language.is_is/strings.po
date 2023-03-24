@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n % 10 != 1 || n % 100 == 11;\n"
 
 msgctxt "Addon Summary"
-msgid "Arcade (FinalBurn Neo) v1.0.0.03 "
+msgid "Arcade (FinalBurn Neo)"
 msgstr ""
 
 msgctxt "Addon Description"
