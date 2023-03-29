@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.fbneo.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.fbneo)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.fbneo?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-fbneo)
-
 # Arcade (FinalBurn Neo)
 
 ### Description
