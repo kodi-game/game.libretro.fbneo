@@ -21,6 +21,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<summary lang="da_DK">Arcade (FinalBurn Neo)</summary>
 		<summary lang="en_GB">Arcade (FinalBurn Neo)</summary>
 		<summary lang="es_ES">Arcade (FinalBurn Neo)</summary>
 		<description lang="da_DK">FinalBurn Neo er en fork af FinalBurn Alpha, en emulator af arkadespil.[CR][CR]FB Neo-emulering inkluderer Capcom CPS-1 og CPS-2, SNK Neo-Geo, Toaplan, Cave og Sega System 16.</description>
