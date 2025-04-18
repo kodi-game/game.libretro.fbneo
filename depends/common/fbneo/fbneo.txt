@@ -1,1 +1,1 @@
-fbneo https://github.com/libretro/FBNeo/archive/a70622172cee7ed33b5de2e71944f089d77e05d5.tar.gz
+fbneo https://github.com/libretro/FBNeo/archive/ffdacc6a7ce719b6371ad0a6143ce46726ed5d25.tar.gz
