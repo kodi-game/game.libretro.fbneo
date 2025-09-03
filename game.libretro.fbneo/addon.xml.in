@@ -26,6 +26,7 @@
 		<summary lang="es_ES">Arcade (FinalBurn Neo)</summary>
 		<summary lang="it_IT">Arcade (FinalBurn Neo)</summary>
 		<summary lang="ko_KR">아케이드 (FinalBurn Neo)</summary>
+		<summary lang="ru_RU">Arcade (FinalBurn Neo)</summary>
 		<summary lang="sv_SE">Arcade (FinalBurn Neo)</summary>
 		<summary lang="zh_CN">街机（FinalBurn Neo）</summary>
 		<description lang="da_DK">FinalBurn Neo er en fork af FinalBurn Alpha, en emulator af arkadespil.[CR][CR]FB Neo-emulering inkluderer Capcom CPS-1 og CPS-2, SNK Neo-Geo, Toaplan, Cave og Sega System 16.</description>
@@ -34,6 +35,7 @@
 		<description lang="es_ES">FinalBurn Neo es una bifurcación de FinalBurn Alpha, un emulador de juegos arcade[CR][CR]La emulación de FB Neo incluye Capcom CPS-1 y CPS-2, SNK Neo-Geo, Toaplan, Cave y Sega System 16.</description>
 		<description lang="it_IT">FinalBurn Neo è un fork di FinalBurn Alpha, un emulatore di giochi arcade.[CR][CR]L&apos;emulazione di FB Neo include Capcom CPS-1 e CPS-2, SNK Neo-Geo, Toaplan, Cave e Sega System 16.</description>
 		<description lang="ko_KR">FinalBurn Neo는 아케이드 게임의 에뮬레이터인 FinalBurn Alpha의 포크입니다.[CR][CR]FB Neo 에뮬레이션에는 Capcom CPS-1 및 CPS-2, SNK Neo-Geo, Toaplan, Cave 및 Sega System 16이 포함됩니다.</description>
+		<description lang="ru_RU">FinalBurn Neo — это форк FinalBurn Alpha, эмулятора аркадных игр.[CR][CR]Эмуляция FB Neo включает в себя Capcom CPS-1 и CPS-2, SNK Neo-Geo, Toaplan, Cave и Sega System 16.</description>
 		<description lang="sv_SE">FinalBurn Neo är en förgrening av FinalBurn Alpha, en emulator för arkadspel.[CR][CR]FB Neo emulerar bland annat Capcom CPS-1 och CPS-2, SNK Neo-Geo, Toaplan, Cave och Sega System 16.</description>
 		<description lang="zh_CN">FinalBurn Neo 是 FinalBurn Alpha 的一个分支，它是街机游戏的模拟器。[CR][CR]FB Neo 仿真包括 Capcom CPS-1 和 CPS-2、SNK Neo Geo、Toaplan、Cave 和 Sega System 16。</description>
 		<disclaimer lang="da_DK">Billedekredit: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
@@ -42,6 +44,7 @@
 		<disclaimer lang="es_ES">Crédito del icono: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<disclaimer lang="it_IT">Credito icona: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<disclaimer lang="ko_KR">아이콘 크레딧: TRIPLEKILLZ(triplekillz.deviantart.com)</disclaimer>
+		<disclaimer lang="ru_RU">Автор значка: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<disclaimer lang="sv_SE">Ikonreferens: TRIPLEKILLZ (triplekillz.deviantart.com)</disclaimer>
 		<disclaimer lang="zh_CN">图标来源：TRIPLEKILLZ（triplekillz.deviantart.com）</disclaimer>
 	</extension>
